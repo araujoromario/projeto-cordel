@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    display: block;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+}
+
+header  a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header a:hover {
+    color: yellow;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
